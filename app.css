@@ -1,0 +1,43 @@
+body {
+    background: #000
+}
+
+#app {
+    display: flex;
+    justify-content: center;
+}
+
+#cloud {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    margin-top: calc(50vh - 225px);
+}
+
+#cloud p {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-family: Microsoft YaHei;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px 6px;
+}
+
+#cloud .blue {
+    color: blue;
+}
+
+#contact {
+    margin-top: calc(50vh - 50px);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link a {
+    color: #fff;
+}
